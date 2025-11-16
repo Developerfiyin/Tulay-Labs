@@ -5,7 +5,7 @@ import image2 from '../src/assets/image2.png'
 const App = () => {
   return (
     <div>
-      <img src={image2} alt="" />
+      <img src={image2} alt="  " />
     </div>
   )
 }
