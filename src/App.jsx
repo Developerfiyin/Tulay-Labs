@@ -1,11 +1,11 @@
 import React from 'react'
 import './App.css'
-import image from './assets/image.png'
+import image from '../src/assets/image.png'
 
 const App = () => {
   return (
-    <div>App
-      {image}
+    <div>
+      <img src={image} alt="" />
     </div>
   )
 }
