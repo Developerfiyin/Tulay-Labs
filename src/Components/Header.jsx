@@ -11,7 +11,7 @@ const Header = () => {
         <li>Vision</li>
         <li>Work</li>
         <li>Team</li>
-    </ul>
+    </ul>     
   <button className='bg-purple p-2  '>Partner with Us</button>
   </section>
   )
