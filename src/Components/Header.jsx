@@ -22,13 +22,8 @@ const Header = () => {
     </nav>
  
 
-
   
     <div className='flex flex-col space-y-5'>
-      <div>
-
-
-      </div>
        <ul className=' text-(--gray) font-semibold mr-20 '>
         <a href='#home' className='p-4 hover:text-black'>Home</a>
         <a href='#about' className='p-4 hover:text-black'>About</a >
