@@ -12,7 +12,13 @@ const Hero = () => {
 
        <h4 className='font-semibold '>We connect people, ideas and opportunities across borders. We help Africa's builders, founders
          and commnuities find global access while bringing meaningful projects into Africa with trust and relevance.</h4>
-         <button className='bg-(--purple) px-6 text-white rounded-3xl mx-auto ml-0 py-4 border-none '>Partner with Us</button>
+          
+           <div> 
+         <button className='bg-(--purple) hover:bg-white hover:outline-(--purple) outline-2 hover:text-(--purple) text-xl font-medium px-4 text-white rounded-3xl mx-auto mr-9 ml-0 py-4 border-none'>Partner with Us</button>
+       <button className='hover:bg-(--purple) hover:text-(--gray-200) px-4 font-medium rounded-3xl mx-auto ml-0 py-4 border-none outline-(--purple) outline-2 text-xl text-(--purple)'>Join Community</button>
+           </div>
+
+
         </div>
 
       </div>
