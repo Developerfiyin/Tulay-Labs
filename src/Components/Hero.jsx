@@ -1,5 +1,5 @@
 import React from 'react'
-import
+import image from '../assets/image3.png'
 const Hero = () => {
   return (
     <div className='bg-(--gray-200) mx-auto text-(--gray) py-10 rounded-4xl px-4'>
@@ -18,8 +18,10 @@ const Hero = () => {
            </div>
         </div>
 
+<div className='size-90'>
+<img src={image} alt="" />
+</div>
 
-<img src="" alt="" />
 
       </div>
 
