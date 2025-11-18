@@ -31,8 +31,44 @@ const Header = () => {
  
 
        <div onClick={handleState}> {nav ? <HiOutlineMenuAlt3 size={30}/> :  <RiCloseFill size={30}/> }</div> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
   
-    <div className={nav ? 'flex flex-col text-(--gray) h-screen sticky space-y-2 font-semibold bg-(--gray-200) items-center' : 'hidden'} >
+    <div className={nav ? 'flex flex-col text-(--gray) h-screen sticky space-y-2 font-semibold bg-(--gray-200) items-center ease-in-out duration-300' : ' -bottom-full ease-in-out duration-300 hidden '} >
         <a href='#home' className='p-4 hover:text-black'>Home</a>
         <a href='#about' className='p-4 hover:text-black'>About</a >
         <a href='#vision'  className='p-4 hover:text-black'>Vision</a>
