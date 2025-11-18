@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div>
       <Header/>
-      <img src={image2} alt="  " />
+      
     </div>
   )
 }
