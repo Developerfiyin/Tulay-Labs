@@ -13,7 +13,7 @@ const Header = () => {
 
   return (
   <section className='py-6'>
-    <nav className='bg-white mt-0 px-4 items-center flex justify-between '>
+    <nav className='bg-white mt-0 px-4 items-center flex justify-between sticky top-0 z-50  '>
    <div className='w-90 m-4'>
     <img src={LOGO} alt="THE  LOGO IMAGE"/>
     </div>
@@ -30,45 +30,9 @@ const Header = () => {
     </nav>
  
 
-       <div onClick={handleState}> {nav ? <HiOutlineMenuAlt3 size={30}/> :  <RiCloseFill size={30}/> }</div> 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-       
-  
-    <div className={nav ? 'flex flex-col text-(--gray) h-screen sticky space-y-2 font-semibold bg-(--gray-200) items-center ease-in-out duration-300' : ' -bottom-full ease-in-out duration-300 hidden '} >
+       <div onClick={handleState}> {nav ? <HiOutlineMenuAlt3 size={30}/> :  <RiCloseFill size={30}/> } 
+       </div> 
+    <div className={nav ? 'flex flex-col text-(--gray) h-screen sticky z-50 top-0  space-y-2 font-semibold bg-(--gray-200) items-center ease-in-out duration-300' : ' -bottom-full ease-in-out duration-300 hidden '} >
         <a href='#home' className='p-4 hover:text-black'>Home</a>
         <a href='#about' className='p-4 hover:text-black'>About</a >
         <a href='#vision'  className='p-4 hover:text-black'>Vision</a>
@@ -77,8 +41,7 @@ const Header = () => {
       <button className='bg-(--purple) hover:bg-[#5f0df8cc] rounded-full cursor-pointer font-medium mx-9 w-150 p-3.5 mb-2 text-white text-center'>Partner with Us</button>
     </div>
 
-      
-        
+  
   </section>
   )
   
