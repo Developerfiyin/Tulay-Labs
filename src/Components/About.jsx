@@ -21,7 +21,7 @@ const About = () => {
             </h1>
             <h1 className='text-6xl font-bold text-(--neutral)'>“Connection”</h1>
 
-            <img src={image4} alt="THE GLOBAL IMAGE " className='w-90 ml-40 mt-20  ' />
+            <img src={image4} alt="THE GLOBAL IMAGE " className='w-90 ml-10 mt-10  ' />
             </div>
            
            <div className='flex flex-col ml-9 gap-5'>
@@ -40,18 +40,17 @@ const About = () => {
                  everyone has a chance to be seen and heard in the global Web3 story. </p>
 
               <div className='flex gap-4'>
-                <div className='border-r-2 border-(--gray)'>
+                <div className='border-r-2 border-(--gray) h-14'>
                   <img src={global} alt="The GLOBAL PICTURE" className='w-10  outline-2 rounded-full m-4  p-2 outline-(--gray)' />
                 </div>
 
-                <div className='border-r-2 border-(--gray)'>
+                <div className='border-r-2 border-(--gray) h-14'>
                   <img src={connect} alt="THE CONNECT ICON" className='w-10 outline-2 rounded-full m-4 p-2 outline-(--gray) ' />
                 </div>
-                <div>
+                <div className=''>
                   <img src={image3} alt="" className='w-10 outline-2 rounded-full p-2 m-4 outline-(--gray)  ' />
                 </div>
-
-              <h3 className='ml-0 mt-5 text-(--netural) font-bold text-2xl '>We‘re connecting Africa to the world of web3.</h3>
+              <h3 className='ml-0 mt-5 text-(--netural) font-semibold text-3xl '>We‘re connecting Africa to the <br /> world of web3.</h3>
                    </div>
 
 
