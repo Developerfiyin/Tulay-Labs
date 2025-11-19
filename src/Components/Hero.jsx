@@ -3,11 +3,12 @@ import global from '../assets/global.png'
 import connect from '../assets/connect.png'
 import light from '../assets/light icon.png'
 import image2 from '../assets/image2.png'
+import image1 from '../assets/image1.png'
 import image3 from '../assets/image3.png'
 const Hero = () => {
   return (
     <div className='bg-(--gray-200) text-(--gray) py-10 rounded-4xl px-6 '>
-      <div className=' justify-between grid md:grid-cols-2'>
+      <div className=' justify-between grid md:grid-cols-3'>
         <div className='flex flex-col gap-9'>
      <h2 className='text-xl font-semibold'>We are Building...</h2>
      <h1 className='text-4xl mb-7 text-(--neutral) font-bold'> The Bridge Between <br />
@@ -25,7 +26,7 @@ const Hero = () => {
      <img src={image2} alt="THE IMAGE" />
     </div>
 
-        <div className='flex mt-8 gap-4'> 
+        <div className='flex mt-8 gap-4 border-(--gray) border-b-2'> 
           <div className='items-center'>
            <img src={global} alt="" className=' mx-auto outline-2 p-2 outline-(--purple) rounded-full' />
           <h5 className='text-black font-semibold'>Driving global and ecosystem growth.</h5>
@@ -40,8 +41,11 @@ const Hero = () => {
            <img src={light} alt="" className=' mx-auto outline-2 p-2 outline-(--gray) rounded-full' />
           <h5 className='hover:text-(--neutral) font-semibold'>Empowering African builders and founders.</h5>
           </div>
-
-
+  
+            <div className='items-center'>
+           <img src={image3} alt="" className=' mx-auto w-10 outline-2 p-2 outline-(--gray) rounded-full' />
+          <h5 className='hover:text-(--neutral) font-semibold'>Bridging Africa & the global Web3 ecosystem .</h5>
+          </div>
         </div>
 
 
