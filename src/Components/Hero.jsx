@@ -1,6 +1,7 @@
 import React from 'react'
-import image from '../assets/image1.png'
-import image1 from '../assets/image2.png'
+import global from '../assets/global.png'
+import image2 from '../assets/image2.png'
+import image3 from '../assets/image3.png'
 const Hero = () => {
   return (
     <div className='bg-(--gray-200) text-(--gray) py-10 rounded-4xl px-6 '>
@@ -19,9 +20,16 @@ const Hero = () => {
         </div>
 
        <div className=''>
-     <img src={image1} alt="THE IMAGE" />
+     <img src={image2} alt="THE IMAGE" />
     </div>
 
+        <div className='flex mt-8'> 
+          <div className='items-center'>
+           <img src={global} alt="" className=' mx-auto outline-2 p-2 outline-(--purple) rounded-full' />
+          <h5 className='text-black font-semibold'>Driving global and ecosystem growth.</h5>
+          </div>
+         
+        </div>
 
       </div>
 
