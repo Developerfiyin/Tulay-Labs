@@ -4,16 +4,21 @@ const About = () => {
   return (
     <div className='bg-w py-12 px-4 '>
         
-        <div  className='flex justify-between '>
+        <div  className='flex justify-between'>
          <div className='flex flex-col '>
-          <h1 className='text-(--gray) text-5xl font-semibold'>
-                Tulay Labs is a hub built around <br />
+          <h1 className='text-(--gray) text-5xl font-semibold mb-4'>
+                Tulay Labs is a hub built <br />
                 around <br />
                 one simple idea:
             </h1>
-            <h1 className='text-6xl font-semibold' >"Connection"</h1>
+            <h1 className='text-6xl font-bold text-(--neutral)'>“Connection”</h1>
             </div>
            
+           <div className='flex flex-col ml-9 gap-5'>
+             <h3 className='text-4xl font-bold text-(--neutral)'>So, who are we ?</h3>
+             <p className='text-(--gray) font-medium'>The name “Tulay“ means bridge and that‘s exactly what we‘re building: A link between <br />
+              Africa and the rest of the Web3 ecosystem.</p>
+           </div>
             
              </div>
 
