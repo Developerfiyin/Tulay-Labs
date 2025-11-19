@@ -50,9 +50,9 @@ const About = () => {
                 <div className=''>
                   <img src={image3} alt="" className='w-10 outline-2 rounded-full p-2 m-4 outline-(--gray)  ' />
                 </div>
-              <h3 className='ml-0 mt-5 text-(--netural) font-semibold text-3xl '>We‘re connecting Africa to the <br /> world of web3.</h3>
+              <h3 className='ml-0 mt-5 text-(--netural) font-semibold text-3xl'>We‘re connecting Africa to the <br /> world of web3.</h3>
                    </div>
-
+                 
 
            </div>
             
