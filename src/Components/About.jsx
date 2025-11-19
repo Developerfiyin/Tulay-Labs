@@ -1,7 +1,11 @@
 import React from 'react'
-import image4 from '../assets/image8.png'
+import image4 from '../assets/image11.png'
 import image5 from '../assets/image5.png'
 import image from '../assets/image.png'
+import global from '../assets/global.png'
+import connect from '../assets/connect.png'
+import light from '../assets/light icon.png'
+import image3 from '../assets/image3.png'
  
 
 const About = () => {
@@ -9,7 +13,7 @@ const About = () => {
     <div className='bg-w py-12 px-4 '>
         
         <div  className='flex justify-between'>
-         <div className='flex flex-col '>
+         <div className='flex flex-col'>
           <h1 className='text-(--gray) text-5xl font-semibold mb-4'>
                 Tulay Labs is a hub built <br />
                 around <br />
@@ -17,7 +21,7 @@ const About = () => {
             </h1>
             <h1 className='text-6xl font-bold text-(--neutral)'>“Connection”</h1>
 
-            <img src={image} alt="" className='w-90 ml-40 mt-20 ' />
+            <img src={image4} alt="THE GLOBAL IMAGE " className='w-90 ml-40 mt-20  ' />
             </div>
            
            <div className='flex flex-col ml-9 gap-5'>
@@ -35,10 +39,22 @@ const About = () => {
                  creating a space where innovation grows and <br />
                  everyone has a chance to be seen and heard in the global Web3 story. </p>
 
+              <div className='flex gap-4'>
+                <div className='border-l-2 border-(--gray)'>
+                  <img src={global} alt="The GLOBAL PICTURE" className='w-10  outline-2 rounded-full m-4  p-2 outline-(--gray)' />
+                </div>
+                  <img src={connect} alt="THE CONNECT ICON" className='w-10 outline-2 rounded-full m-4 p-2 outline-(--gray) ' />
+                  <img src={light} alt="The LIGHT KNOWLEDGE ICON" className='w-10 outline-2 rounded-full m-4 p-2 outline-(--gray)' />
+                  <img src={image3} alt="" className='w-10 outline-2 rounded-full p-2 m-4 outline-(--gray)  ' />
+                   </div>
+
+
+
            </div>
             
              </div>
 
+              
 
         At</div>
   )
