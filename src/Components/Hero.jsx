@@ -31,7 +31,7 @@ const Hero = () => {
 
 
        <div className='flex mt-8 lg:w-full gap-8 border-(--gray) border-b-2'> 
-          <div className='items-center border-b-4 rounded-md border-(--yellow)'>
+          <div className='items-center border-b-4 rounded-b-sm border-(--yellow)'>
            <img src={global} alt="" className=' mx-auto mb-6 outline-2 p-2  outline-(--purple) rounded-full' />
           <h5 className='text-black font-semibold mb-6'>Driving global and ecosystem growth.</h5>
           </div>
