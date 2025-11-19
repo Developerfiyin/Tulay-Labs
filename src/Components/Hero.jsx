@@ -1,6 +1,7 @@
 import React from 'react'
 import global from '../assets/global.png'
 import connect from '../assets/connect.png'
+import light from '../assets/light icon.png'
 import image2 from '../assets/image2.png'
 import image3 from '../assets/image3.png'
 const Hero = () => {
@@ -31,10 +32,18 @@ const Hero = () => {
           </div>
          
            <div className='items-center'>
-           <img src={connect} alt="" className=' mx-auto outline-2 p-2 outline-(--purple) rounded-full' />
+           <img src={connect} alt="the connect icon" className=' mx-auto outline-2 p-2 outline-(--gray) rounded-full' />
           <h5 className='hover:text-(--neutral) font-semibold'>Connecting talents, investors & innovators.</h5>
           </div>
+
+            <div className='items-center'>
+           <img src={light} alt="" className=' mx-auto outline-2 p-2 outline-(--gray) rounded-full' />
+          <h5 className='hover:text-(--neutral) font-semibold'>Empowering African builders and founders.</h5>
+          </div>
+
+
         </div>
+
 
       </div>
 
