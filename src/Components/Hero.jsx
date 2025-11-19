@@ -1,5 +1,6 @@
 import React from 'react'
 import global from '../assets/global.png'
+import connect from '../assets/connect.png'
 import image2 from '../assets/image2.png'
 import image3 from '../assets/image3.png'
 const Hero = () => {
@@ -23,12 +24,16 @@ const Hero = () => {
      <img src={image2} alt="THE IMAGE" />
     </div>
 
-        <div className='flex mt-8'> 
+        <div className='flex mt-8 gap-4'> 
           <div className='items-center'>
            <img src={global} alt="" className=' mx-auto outline-2 p-2 outline-(--purple) rounded-full' />
           <h5 className='text-black font-semibold'>Driving global and ecosystem growth.</h5>
           </div>
          
+           <div className='items-center'>
+           <img src={connect} alt="" className=' mx-auto outline-2 p-2 outline-(--purple) rounded-full' />
+          <h5 className='hover:text-(--neutral) font-semibold'>Connecting talents, investors & innovators.</h5>
+          </div>
         </div>
 
       </div>
