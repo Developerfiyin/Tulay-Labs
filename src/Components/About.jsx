@@ -18,6 +18,14 @@ const About = () => {
              <h3 className='text-4xl font-bold text-(--neutral)'>So, who are we ?</h3>
              <p className='text-(--gray) font-medium'>The name “Tulay“ means bridge and that‘s exactly what we‘re building: A link between <br />
               Africa and the rest of the Web3 ecosystem.</p>
+
+              <p> We believe Africa has everything it needs to lead in Web3 such as talent, creativity, <br />
+               strong communities and culture. But access to capital, infrastructure and visibility is still <br />
+               uneven. So we decided to change that. Tulay Labs connects builders, talents, investors <br />
+               and ecosystems. We create the spaces, programs and relationships that help ideas <br />
+                grow and opportunities reach the people who deserve them.
+
+</p>
            </div>
             
              </div>
