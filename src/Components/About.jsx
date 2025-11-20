@@ -41,7 +41,7 @@ const About = () => {
                  creating a space where innovation grows and <br />
                  everyone has a chance to be seen and heard in the global Web3 story. </p>
 
-              <div className='flex gap-4'>
+              <div className=' gap-4 md:flex '>
                 <div className='border-r-2 border-(--gray) h-14'>
                   <img src={global} alt="The GLOBAL PICTURE" className='w-10  outline-2 rounded-full m-4  p-2 outline-(--gray)' />
                 </div>
