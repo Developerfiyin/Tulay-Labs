@@ -1,5 +1,6 @@
 import React from 'react'
 import image1 from '../assets/image4.png'
+import image2 from '../assets/image13.png'
 const Vision = () => {
   return (
     <div className="bg-white py-12 px-4">
@@ -25,10 +26,15 @@ const Vision = () => {
              
              <div className='bg-(--gray-200) py-4 px-2 rounded-lg '>
                <h3 className='text-(--neutral) font-semibold text-3xl pr-15 '>
-          We're here to help African founders <br /> reach the world.</h3>
+            We're here to help African founders <br /> reach the world.</h3>
             <p className='text-(--gray) font-semibold '> Web3 was meant to be global, but access isn‘t equal yet. There‘s money <br />
              and knowledge flowing freely in some regions, while Africa holds incredible people and projects waiting to be seen. <br />
              Tulay Labs exists to close that gap.</p>
+             <div className='lg:ml-90 '>
+             <img src={image2} alt="" />
+             </div> {/* THIS IMAGE */}
+
+
              </div>
           </div>
 
