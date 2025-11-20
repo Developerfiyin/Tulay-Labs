@@ -60,7 +60,7 @@ const About = () => {
 
               
 
-        At</div>
+        </div>
   )
 }
 
