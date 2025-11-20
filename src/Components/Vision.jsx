@@ -36,7 +36,7 @@ const Vision = () => {
              </div> {/* THIS IMAGE */}
              </div>
              <div className='bg-[#7DAFB8] py-4  px-2 rounded-lg'>
-            <img src={image3} alt="" />
+            <img src={image3} alt=" The right quote quote image" />
              </div>
           </div>
 
