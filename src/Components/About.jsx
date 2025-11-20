@@ -1,7 +1,7 @@
 import React from 'react'
 import image4 from '../assets/image11.png'
 import image5 from '../assets/image5.png'
-import image from '../assets/image.png'
+import image from '../assets/image12.png'
 import global from '../assets/global.png'
 import connect from '../assets/connect.png'
 import light from '../assets/light icon.png'
