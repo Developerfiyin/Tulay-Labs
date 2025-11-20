@@ -36,6 +36,13 @@ const Vision = () => {
              <div className='lg:ml-90 '>
              <img src={image2} alt="" />
              </div> {/* THIS IMAGE */}
+             
+           <div className='flex gap-2 mt-4'>
+             <div className='bg-(--yellow-400) w-3 h-3 rounded-full mb-9'></div>
+             <div className='bg-(--yellow-300) w-3 h-3 rounded-full mb-9'></div>
+             <div className='bg-(--yellow-200) w-3 h-3 rounded-full mb-9'></div>
+            </div>
+             
              </div>
 
               <div className='flex justify-evenly gap-4 mx-auto'>
