@@ -2,6 +2,7 @@ import React from 'react'
 import image1 from '../assets/image4.png'
 import image2 from '../assets/image13.png'
 import image3 from '../assets/image14.png'
+import image4 from '../assets/image15.png'
 const Vision = () => {
   return (
     <div className="bg-white py-12 px-4">
@@ -35,9 +36,20 @@ const Vision = () => {
              <img src={image2} alt="" />
              </div> {/* THIS IMAGE */}
              </div>
-             <div className='bg-[#7DAFB8] py-4  px-2 rounded-lg'>
+
+              <div className='flex justify-evenly gap-4 mx-auto'>
+            <div className='bg-[#44acbe] py-4 px-2 rounded-lg'> {/* The First gray div */  }
+            <div className='flex justify-between space-y-4'>
             <img src={image3} alt=" The right quote quote image" />
+            <img src={image4} alt="The Arrow image" sizes='90' />
+              </div>
+              <h5 className='text-(--natural) font-semibold text-xl'>We connect African founders and talents with global <br /> investors and opportunities. </h5>
              </div>
+             <div className='bg-[#44acbe] py-4  px-2 rounded-lg' >
+
+             </div>
+              </div>
+             
           </div>
 
         </div> {/* THE FLEXED DIV*/}
