@@ -1,6 +1,7 @@
 import React from 'react'
 import image1 from '../assets/image4.png'
 import image2 from '../assets/image13.png'
+import image3 from '../assets/image14.png'
 const Vision = () => {
   return (
     <div className="bg-white py-12 px-4">
@@ -22,7 +23,7 @@ const Vision = () => {
           </div>
 
 
-          <div className='flex flex-col w-[50%] rounded-lg'>
+          <div className='flex flex-col gap-5 w-[50%] rounded-lg'>
              
              <div className='bg-(--gray-200) py-4 px-2 rounded-lg '>
                <h3 className='text-(--neutral) font-semibold text-3xl pr-15 '>
@@ -33,8 +34,9 @@ const Vision = () => {
              <div className='lg:ml-90 '>
              <img src={image2} alt="" />
              </div> {/* THIS IMAGE */}
-
-
+             </div>
+             <div className='bg-[#7DAFB8] py-4  px-2 rounded-lg'>
+            <img src={image3} alt="" />
              </div>
           </div>
 
