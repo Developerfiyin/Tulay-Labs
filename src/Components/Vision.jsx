@@ -20,7 +20,7 @@ const Vision = () => {
            <h1 className='text-(--purple) font-bold text-5xl mb-2'>Existence</h1>
            <h1 className='text-(--neutral) font-bold text-5xl mb-15'>Is Crucial</h1>
              <div className=''>
-          <img src={image1} alt="" className='w-full' />
+          <img src={image1} alt="HANDS" className='w-full h-auto ' />
              </div>
           </div>
 
