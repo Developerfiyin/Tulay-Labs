@@ -3,6 +3,7 @@ import image1 from '../assets/image4.png'
 import image2 from '../assets/image13.png'
 import image3 from '../assets/image14.png'
 import image4 from '../assets/image15.png'
+import image5 from '../assets/quote.png'
 const Vision = () => {
   return (
     <div className="bg-white py-12 px-4">
@@ -45,9 +46,10 @@ const Vision = () => {
               </div>
               <h5 className='text-(--natural) font-semibold text-xl'>We connect African founders and talents with global <br /> investors and opportunities. </h5>
              </div>
-             <div className='bg-[#44acbe] py-4  px-2 rounded-lg' >
-
-             </div>
+             <div className='bg-[#44acbe] py-4 space-y-6 px-2 rounded-lg' >
+               <img src={image5} alt="The Second Quote image (the left)" className='ml-auto mb-6' />
+              <h5 className='text-(--natural) font-semibold text-xl pl-9'>We help global companies work with African teams and communities on projects.</h5>
+             </div>   {/* The second gray div */}
               </div>
              
           </div>
