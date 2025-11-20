@@ -6,12 +6,17 @@ const Vision = () => {
         <div className='flex justify-between'>
 
           <div className='bg-(--gray-200) flex-col flex  py-4 px-4 w-[40%] rounded-md'>
-            <div className='bg-(--yellow) w-3 h-3 rounded-full mb-9'></div>
+            <div className='flex gap-2 mt-4'>
+             <div className='bg-(--yellow-400) w-3 h-3 rounded-full mb-9'></div>
+             <div className='bg-(--yellow-300) w-3 h-3 rounded-full mb-9'></div>
+             <div className='bg-(--yellow-200) w-3 h-3 rounded-full mb-9'></div>
+            </div>
+
            <h1 className='text-(-neutral) font-bold text-5xl mb-2'>Our</h1>
            <h1 className='text-(--purple) font-bold text-5xl mb-2'>Existence</h1>
            <h1 className='text-(--neutral) font-bold text-5xl mb-15'>Is Crucial</h1>
              
-          <img src={image1} alt="" className='w-full ' />
+          <img src={image1} alt="" className='size- ' />
           </div>
 
 
