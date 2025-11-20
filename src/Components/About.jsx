@@ -10,7 +10,7 @@ import image3 from '../assets/image3.png'
 
 const About = () => {
   return (
-    <section className='py-12 px-4 grid md:grid-col-6'>
+    <section className='py-12 px-4'>
         
         <div  className='flex justify-between'>
          <div className='flex flex-col'>
