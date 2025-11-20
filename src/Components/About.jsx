@@ -10,7 +10,7 @@ import image3 from '../assets/image3.png'
 
 const About = () => {
   return (
-    <div className='bg-w py-12 px-4 '>
+    <section className='py-12 px-4 grid md:grid-col-6'>
         
         <div  className='flex justify-between'>
          <div className='flex flex-col'>
@@ -20,8 +20,10 @@ const About = () => {
                 one simple idea:
             </h1>
             <h1 className='text-6xl font-bold text-(--neutral)'>“Connection”</h1>
-
+<div>
             <img src={image4} alt="THE GLOBAL IMAGE " className='w-90 ml-10 mt-10  ' />
+
+</div>
             </div>
            
            <div className='flex flex-col ml-9 gap-5'>
@@ -43,7 +45,6 @@ const About = () => {
                 <div className='border-r-2 border-(--gray) h-14'>
                   <img src={global} alt="The GLOBAL PICTURE" className='w-10  outline-2 rounded-full m-4  p-2 outline-(--gray)' />
                 </div>
-
                 <div className='border-r-2 border-(--gray) h-14'>
                   <img src={connect} alt="THE CONNECT ICON" className='w-10 outline-2 rounded-full m-4 p-2 outline-(--gray) ' />
                 </div>
@@ -60,7 +61,7 @@ const About = () => {
 
               
 
-        </div>
+        </section>
   )
 }
 

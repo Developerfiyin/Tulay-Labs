@@ -15,8 +15,10 @@ const Vision = () => {
            <h1 className='text-(-neutral) font-bold text-5xl mb-2'>Our</h1>
            <h1 className='text-(--purple) font-bold text-5xl mb-2'>Existence</h1>
            <h1 className='text-(--neutral) font-bold text-5xl mb-15'>Is Crucial</h1>
-             
-          <img src={image1} alt="" className='w-full ' />
+             <div className=''>
+          <img src={image1} alt="" className='w-full' />
+
+             </div>
           </div>
 
 
