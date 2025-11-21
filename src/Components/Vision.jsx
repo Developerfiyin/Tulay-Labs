@@ -4,9 +4,10 @@ import image2 from '../assets/image13.png'
 import image3 from '../assets/image14.png'
 import image4 from '../assets/image15.png'
 import image5 from '../assets/quote.png'
+import lock from '../assets/lock.png'
 const Vision = () => {
   return (
-    <div className="bg-white py-12 px-4" >
+    <section className="bg-white py-12 px-4" >
         <div className='flex justify-between'>
 
           <div className='bg-(--gray-200) flex-col h-[40%] flex py-4 px-4 w-[40%] rounded-md'>
@@ -20,10 +21,9 @@ const Vision = () => {
            <h1 className='text-(--purple) font-bold text-5xl mb-2'>Existence</h1>
            <h1 className='text-(--neutral) font-bold text-5xl mb-15'>Is Crucial</h1>
              <div className=''>
-          <img src={image1} alt="HANDS" className='w-full h-auto' />
+          <img src={image1} alt="HANDS" className='w-full h-auto'/>
              </div>
           </div>
-
 
           <div className='flex flex-col gap-5 w-[50%] rounded-lg'>
              
@@ -67,8 +67,21 @@ const Vision = () => {
 
         </div>  {/* THE FLEXED DIV*/}
       
+          <div className='flex justify-between'>
+          
+          <div className=' flex flex-col'>
+           <h2 className='text-4xl font-semibold text-(--neutral) '>Our promise to those building the web3 future of Africa.</h2>
+
+            <div>
+              <img src={lock} alt="THE LOCK ICON" className='outline-2 rounded-full m-4 p-4 outline-(--gray)' />
+              <h6 className='text-2xl font-bold text-(--neutral)'>Investors</h6>
+
+            </div>
+          </div>
+
+          </div>
       
-      </div>
+      </section>
   )
 }
 
