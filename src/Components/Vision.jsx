@@ -80,9 +80,21 @@ const Vision = () => {
              We promise to give you unrestricted access to high quality <br />
              African Web3 opportunities and vetted startups.</h6>
               </div>
-                 
-
             </div>
+
+
+               
+                     <div>
+              <img src={lock} alt="THE LOCK ICON" className='outline-2 rounded-full m-4 p-4 outline-(--gray)' />
+              <div className='flex gap-6 border-t-2 border-(--gray) '>
+               <h6 className='text-2xl font-bold text-(--neutral) mt-7'>Founders</h6> 
+              <h6 className='font-semibold text-(--gray) mt-7'>
+             We promise to make available resources, capital and talents to build strong companies and loyal communities.</h6>
+              </div>
+            </div>
+
+
+
           </div>
 
           </div>
