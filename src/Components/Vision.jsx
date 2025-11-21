@@ -74,11 +74,11 @@ const Vision = () => {
 
             <div>
               <img src={lock} alt="THE LOCK ICON" className='outline-2 rounded-full m-4 p-4 outline-(--gray)' />
-              <div className='flex gap-6 border-t-2 border-(--gray) mt-90'>
+              <div className='flex gap-6 border-t-2 border-(--gray) '>
                <h6 className='text-2xl font-bold text-(--neutral) mt-7'>Investors</h6> 
-              <p className='font-semibold text-(--gray) '>
+              <h6 className='font-semibold text-(--gray) mt-7'>
              We promise to give you unrestricted access to high quality <br />
-             African Web3 opportunities and vetted startups.</p>
+             African Web3 opportunities and vetted startups.</h6>
               </div>
                  
 
