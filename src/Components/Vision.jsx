@@ -67,10 +67,10 @@ const Vision = () => {
 
         </div>  {/* THE FLEXED DIV*/}
       
-          <div className='flex justify-between'>
+          <div className='flex justify-between w-[40%]'> {/* the texts section*/}
           
           <div className=' flex flex-col'>
-           <h2 className='text-4xl font-semibold text-(--neutral) '>Our promise to those building the web3 future of Africa.</h2>
+           <h2 className='text-4xl font-semibold text-(--neutral) mb-9'>Our promise to those building the web3 future of Africa.</h2>
 
             <div>
               <img src={lock} alt="THE LOCK ICON" className='outline-2 rounded-full m-4 p-4 outline-(--gray)' />
