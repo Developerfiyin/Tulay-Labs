@@ -12,7 +12,7 @@ const About = () => {
   return (
     <section className='py-12 px-4'>
         
-        <div  className='flex justify-between'>
+        <div  className='lg:flex justify-between md:grid '>
          <div className='flex flex-col'>
           <h1 className='text-(--gray) text-5xl font-semibold mb-4'>
                 Tulay Labs is a hub built <br />
@@ -41,7 +41,7 @@ const About = () => {
                  creating a space where innovation grows and <br />
                  everyone has a chance to be seen and heard in the global Web3 story. </p>
 
-              <div className=' gap-4 md:flex '>
+              <div className=' gap-4 lg:flex md:grid '>
                 <div className='border-r-2 border-(--gray) h-14'>
                   <img src={global} alt="The GLOBAL PICTURE" className='w-10  outline-2 rounded-full m-4  p-2 outline-(--gray)' />
                 </div>
@@ -51,7 +51,7 @@ const About = () => {
                 <div className=''>
                   <img src={image3} alt="" className='w-10 outline-2 rounded-full p-2 m-4 outline-(--gray)  ' />
                 </div>
-              <h3 className='ml-0 mt-5 text-(--netural) font-semibold text-3xl'>We‘re connecting Africa to the <br /> world of web3.</h3>
+              <h3 className='ml-0 mt-5 text-(--netural) font-semibold text-center text-3xl'>We‘re connecting Africa to the <br /> world of web3.</h3>
                    </div>
                  
 
