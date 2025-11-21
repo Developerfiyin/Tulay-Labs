@@ -6,7 +6,7 @@ import image4 from '../assets/image15.png'
 import image5 from '../assets/quote.png'
 const Vision = () => {
   return (
-    <div className="bg-white py-12 px-4">
+    <div className="bg-white py-12 px-4" >
         <div className='flex justify-between'>
 
           <div className='bg-(--gray-200) flex-col h-[40%] flex py-4 px-4 w-[40%] rounded-md'>
@@ -48,7 +48,7 @@ const Vision = () => {
               <div className='grid lg:flex justify-evenly gap-4 mx-auto '> {/* THE DIV CONTAINING THE 2 GREY DIVS */}
             <div className='bg-[#44acbe] py-4 px-2 rounded-lg'> {/* The  First gray div OPENNG TAG */  }
             <div className='flex justify-between space-y-4'>
-            <img src={image3} alt=" The right quote quote image" />
+            <img src={image3} alt=" The right quote image" />
             <img src={image4} alt="The Arrow image" sizes='90' />
               </div>
               <h5 className='text-(--natural) font-semibold text-xl'>We connect African founders and talents with global <br /> investors and opportunities. </h5>
@@ -61,9 +61,8 @@ const Vision = () => {
              
           </div>
 
-        </div> {/* THE FLEXED DIV*/}
+        </div>  {/* THE FLEXED DIV*/}
       
-      Vision
       
       </div>
   )
