@@ -33,14 +33,18 @@ const Vision = () => {
             <p className='text-(--gray) font-semibold '> Web3 was meant to be global, but access isn‘t equal yet. There‘s money <br />
              and knowledge flowing freely in some regions, while Africa holds incredible people and projects waiting to be seen. <br />
              Tulay Labs exists to close that gap.</p>
-             <div className='lg:ml-90 '>
-             <img src={image2} alt="" />
-             </div> {/* THIS IMAGE */}
+             {/*
+             <div className='lg:mb-auto '>
+             </div>  THIS IMAGE */}
              
-           <div className='flex gap-2 mt-4'>
-             <div className='bg-(--yellow-400) w-3 h-3 rounded-full mb-9'></div>
-             <div className='bg-(--yellow-300) w-3 h-3 rounded-full mb-9'></div>
-             <div className='bg-(--yellow-200) w-3 h-3 rounded-full mb-9'></div>
+           <div className='flex justify-between'>
+               <div className='flex gap-2'>
+             <div className='bg-(--yellow-400) w-3 h-3 rounded-full mt-auto '></div>
+             <div className='bg-(--yellow-300) w-3 h-3 rounded-full mt-auto '></div>
+             <div className='bg-(--yellow-200) w-3 h-3 rounded-full mt-auto '></div>
+             </div>
+             <img src={image2} alt="" className='sm:w-50 lg:w-auto' />
+            
             </div>
              
              </div>
