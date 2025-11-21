@@ -45,7 +45,7 @@ const Vision = () => {
              
              </div>
 
-              <div className='lg:flex justify-evenly gap-4 mx-auto sm:grid'> {/* THE DIV CONTAINING THE 2 GREY DIVS */}
+              <div className='grid lg:flex justify-evenly gap-4 mx-auto '> {/* THE DIV CONTAINING THE 2 GREY DIVS */}
             <div className='bg-[#44acbe] py-4 px-2 rounded-lg'> {/* The  First gray div OPENNG TAG */  }
             <div className='flex justify-between space-y-4'>
             <img src={image3} alt=" The right quote quote image" />
