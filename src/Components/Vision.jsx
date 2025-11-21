@@ -9,7 +9,7 @@ const Vision = () => {
     <div className="bg-white py-12 px-4">
         <div className='flex justify-between'>
 
-          <div className='bg-(--gray-200) flex-col flex py-4 px-4 w-[40%] rounded-md'>
+          <div className='bg-(--gray-200) flex-col h-[40%] flex py-4 px-4 w-[40%] rounded-md'>
             <div className='flex gap-2 mt-4'>
              <div className='bg-(--yellow-400) w-3 h-3 rounded-full mb-9'></div>
              <div className='bg-(--yellow-300) w-3 h-3 rounded-full mb-9'></div>
@@ -20,7 +20,7 @@ const Vision = () => {
            <h1 className='text-(--purple) font-bold text-5xl mb-2'>Existence</h1>
            <h1 className='text-(--neutral) font-bold text-5xl mb-15'>Is Crucial</h1>
              <div className=''>
-          <img src={image1} alt="HANDS" className='w-full h-auto ' />
+          <img src={image1} alt="HANDS" className='w-full h-auto' />
              </div>
           </div>
 
@@ -45,15 +45,15 @@ const Vision = () => {
              
              </div>
 
-              <div className='flex justify-evenly gap-4 mx-auto'>
-            <div className='bg-[#44acbe] py-4 px-2 rounded-lg'> {/* The First gray div */  }
+              <div className='lg:flex justify-evenly gap-4 mx-auto sm:grid'> {/* THE DIV CONTAINING THE 2 GREY DIVS */}
+            <div className='bg-[#44acbe] py-4 px-2 rounded-lg'> {/* The  First gray div OPENNG TAG */  }
             <div className='flex justify-between space-y-4'>
             <img src={image3} alt=" The right quote quote image" />
             <img src={image4} alt="The Arrow image" sizes='90' />
               </div>
               <h5 className='text-(--natural) font-semibold text-xl'>We connect African founders and talents with global <br /> investors and opportunities. </h5>
-             </div>
-             <div className='bg-[#44acbe] py-4 space-y-6 px-2 rounded-lg' >
+             </div>  {/* THE FIRST GRAY DIV CLOSING TAG */ }
+             <div className='bg-[#44acbe] py-4 space-y-6 px-2 rounded-lg' > {/* THE SECOND GRAY DIV OPENING TAG */}
                <img src={image5} alt="The Second Quote image (the left)" className='ml-auto mb-6' />
               <h5 className='text-(--natural) font-semibold text-xl pl-9'>We help global companies work with African teams and communities on projects.</h5>
              </div>   {/* The second gray div */}
