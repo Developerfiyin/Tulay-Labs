@@ -5,6 +5,8 @@ import image3 from '../assets/image14.png'
 import image4 from '../assets/image15.png'
 import image5 from '../assets/quote.png'
 import lock from '../assets/lock.png'
+import flight from '../assets/flight.png'
+import image6 from '../assets/image6.png'
 const Vision = () => {
   return (
     <section className="bg-white py-12 px-4" >
@@ -73,7 +75,7 @@ const Vision = () => {
            <h2 className='text-4xl font-semibold text-(--neutral) mb-9'>Our promise to those building the web3 future of Africa.</h2>
 
             <div>
-              <img src={lock} alt="THE LOCK ICON" className='outline-2 rounded-full m-4 p-4 outline-(--gray)' />
+              <img src={lock} alt="THE LOCK ICON" className='outline-2 rounded-full m-4 p-3 outline-(--gray)' />
               <div className='flex gap-6 border-t-2 border-(--gray) '>
                <h6 className='text-2xl font-bold text-(--neutral) mt-7'>Investors</h6> 
               <h6 className='font-semibold text-(--gray) mt-7'>
@@ -81,11 +83,9 @@ const Vision = () => {
              African Web3 opportunities and vetted startups.</h6>
               </div>
             </div>
-
-
                
-                     <div>
-              <img src={lock} alt="THE LOCK ICON" className='outline-2 rounded-full m-4 p-4 outline-(--gray)' />
+             <div>
+              <img src={flight} alt="THE FLIGHT ICON" className='outline-2 rounded-full m-4 p-3 outline-(--gray)'/>
               <div className='flex gap-6 border-t-2 border-(--gray) '>
                <h6 className='text-2xl font-bold text-(--neutral) mt-7'>Founders</h6> 
               <h6 className='font-semibold text-(--gray) mt-7'>
@@ -93,7 +93,17 @@ const Vision = () => {
               </div>
             </div>
 
+              <div>
+              <img src={image6} alt="THE GROUP ICON" className='outline-2 rounded-full m-4 p-3 outline-(--gray)'/>
+              <div className='flex gap-6 border-t-2 border-(--gray) '>
+               <h6 className='text-2xl font-bold text-(--neutral) mt-7'>Talents</h6> 
+              <h6 className='font-semibold text-(--gray) mt-7'>
+              We promise to connect you with global opportunities where your work truly matters and earns the recognition it deserves.</h6>
+              </div>
+            </div>
 
+
+            
 
           </div>
 
