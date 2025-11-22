@@ -71,7 +71,7 @@ const Vision = () => {
 
         </div>  {/* THE FLEXED DIV*/}
       
-          <div className='flex justify-between gap-4 mt-12'> {/* the texts section*/}
+          <div className='flex justify-between gap-4 mt-12 '> {/* the texts section*/}
           
           <div className=' flex flex-col w-[40%]'>
            <h2 className='text-4xl font-semibold text-(--neutral) mb-9'>Our promise to those building the web3 future of Africa.</h2>
@@ -114,9 +114,9 @@ const Vision = () => {
           </div> {/* FLEX-COL*/ }
      
               <div className='w-[50%]'>
-              <h3 className='lg:text-6xl text-4xl font-bold mb-7 text-(--neutral)'>We‘ve got big visions</h3>
-                 <h6 className='font-semibold text-(--gray)'>Our vision is to be the global bridge that brings Web3 resources into Africa, activates Africa‘s talents and connects them with the world.</h6>
-                 <h6 className='font-semibold text-(--gray)'> To achieve this, we have made it our mission to build a hub that powers Africa‘s Web3 ecosystem by connecting capital, talent and opportunities across continents.</h6>
+              <h3 className='lg:text-5xl text-4xl font-bold mb-7 text-(--neutral)'>We‘ve got big visions</h3>
+                 <h6 className='font-semibold mb-6 text-(--gray)'>Our vision is to be the global bridge that brings Web3 resources into Africa, activates Africa‘s talents and connects them with the world.</h6>
+                 <h6 className='font-semibold mb-6 text-(--gray)'> To achieve this, we have made it our mission to build a hub that powers Africa‘s Web3 ecosystem by connecting capital, talent and opportunities across continents.</h6>
                  <h6 className='font-semibold text-(--gray)'>The goal is simple, we want to make sure innovation and opportunity move in both directions</h6>
                 </div>            
 
