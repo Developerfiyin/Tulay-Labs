@@ -5,6 +5,7 @@ import Header from './Components/Header'
 import Hero  from './Components/Hero'
 import About from './Components/About'
 import Vision from "./Components/Vision"
+import Work from './Components/Work'
 
 const App = () => {
   return (
@@ -13,7 +14,9 @@ const App = () => {
       <Hero/>
       <About/>
       <Vision/>
-    </div>
+      <Work/>
+
+          </div>
   )
 }
 
