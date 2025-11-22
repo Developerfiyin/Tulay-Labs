@@ -7,6 +7,8 @@ import image5 from '../assets/quote.png'
 import lock from '../assets/lock.png'
 import flight from '../assets/flight.png'
 import image6 from '../assets/image6.png'
+import image7 from '../assets/image7.png'
+
 const Vision = () => {
   return (
     <section className="bg-white py-12 px-4" >
@@ -102,7 +104,13 @@ const Vision = () => {
               </div>
             </div>
 
-
+             <div>
+              <img src={image7} alt="THE BUSINESS ICON" className='outline-2 rounded-full m-4 p-3 outline-(--gray)'/>
+              <div className='flex gap-6 border-t-2 border-(--gray) '>
+               <h6 className='text-2xl font-bold text-(--neutral) mt-7'>Businesses</h6> 
+              <h6 className='font-semibold text-(--gray) mt-7'>We promise to give you authentic access to African markets, communities, and the real opportunities they offer.</h6>
+              </div>
+            </div>
             
 
           </div>
