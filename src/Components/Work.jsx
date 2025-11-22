@@ -11,9 +11,9 @@ const Work = () => {
       <div className='flex mx-auto'>
         <div className=''> 
         <h6 className='text-xl font-semibold text-(--gray)'>The Breakdown</h6>
-        <div className='flex gap-2'>
-         <h2 className='text-(--neutral) text-6xl font-semibold  '>What We Do</h2>
-       <img src={image1} alt="" />
+        <div className='flex space-x-6'>
+         <h2 className='text-(--neutral) text-6xl font-semibold'>What We Do</h2>
+       <img src={image1} alt="THE ARROW IMAGE " className='mt-8 ml-9' />
         </div>
        
         </div>
