@@ -21,12 +21,11 @@ const Work = () => {
         <div className=' mt-8 py-6 flex justify-evenly px-2' >
             
           <div className='bg-(--natural) flex-col  flex mx-auto' >
-            <div className='flex justify-between'>
-           <h3 className='text-(--neutral) font-semibold p-4'>Talent Hub</h3>
-           <div>
-            <div className='w-3 h-3 bg-(--purple) rounded-full'></div>
-
-           </div>
+            <div className='flex justify-between gap-2 m-2'>
+           <h3 className='text-(--neutral) font-semibold mr-15 mb-20'>Talent Hub</h3>
+            <div className='w-3 h-3 bg-(--purple-200) rounded-full'></div>
+            <div className='w-3 h-3 rounded-full bg-(--purple-300)'></div>
+            <div className='w-3 h-3 rounded-full bg-(--purple-400) '></div>
             </div>
 
           </div>
