@@ -18,10 +18,17 @@ const Work = () => {
          </div>
         </div>
 
-        <div className=' mt-8 py-6 flex justify-evenly px-2 mx-auto ' >
+        <div className=' mt-8 py-6 flex justify-evenly px-2' >
             
-          <div className='bg-(--natural) flex-col flex' >
-            <h3>Talent Hub</h3>
+          <div className='bg-(--natural) flex-col  flex mx-auto' >
+            <div className='flex justify-between'>
+           <h3 className='text-(--neutral) font-semibold p-4'>Talent Hub</h3>
+           <div>
+            <div className='w-3 h-3 bg-(--purple) rounded-full'></div>
+
+           </div>
+            </div>
+
           </div>
 
       </div>
