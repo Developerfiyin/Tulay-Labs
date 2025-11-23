@@ -20,13 +20,19 @@ const Work = () => {
 
         <div className=' mt-8 py-6 flex justify-evenly px-2' >
             
-          <div className='bg-(--natural) flex-col  flex mx-auto' >
-            <div className='flex justify-between gap-2 m-2'>
-           <h3 className='text-(--neutral) font-semibold mr-15 mb-20'>Talent Hub</h3>
-            <div className='w-3 h-3 bg-(--purple-200) rounded-full'></div>
+          <div className='bg-(--natural) flex-col p-5 flex mx-auto' >
+            <div className='flex justify-between m-2'>
+           <h3 className='text-(--neutral) text-2xl font-semibold mr-15 mb-20'>Talent Hub</h3>
+           <div className='flex gap-3'> 
+             <div className='w-3 h-3 bg-(--purple-200) rounded-full'></div>
             <div className='w-3 h-3 rounded-full bg-(--purple-300)'></div>
             <div className='w-3 h-3 rounded-full bg-(--purple-400) '></div>
+           </div>
+           
             </div>
+
+               <p className='font-semibold text-(--gray)' > Africa has incredible Web3 talent, from developers to marketers and community managers, yet much remains unseen and underused.</p>
+
 
           </div>
 
