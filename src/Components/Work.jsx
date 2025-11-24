@@ -7,7 +7,7 @@ import image4 from '../assets/image16.png'
 
 const Work = () => {
   return (
-    <section className='py-12 px-4 bg-(--gray-200)'>
+    <section className='py-12 pl-4 bg-(--gray-200)'>
         
       <div className='flex '>
         <div className=''> 
@@ -30,7 +30,7 @@ const Work = () => {
            </div>
             </div>
             <p className='font-semibold text-(--gray) mb-6' > Africa has incredible Web3 talent, from developers to marketers and community managers, yet much remains unseen and underused.</p>
-            <p className='text-(--gray) font-medium '>The challenge is access, not ability. Tulay Labs vets, equips, and connects African talent with global Web3 projects, helping startups, investors, and businesses discover and work with the skills Africa has to offer.</p>
+            <p className='text-(--gray) font-medium mb-6'>The challenge is access, not ability. Tulay Labs vets, equips, and connects African talent with global Web3 projects, helping startups, investors, and businesses discover and work with the skills Africa has to offer.</p>
             <img src={image2} alt=" The image icon " className='w-10 outline-2 rounded-full outline-(--neutral)  mt-3 p-2 ' />
           </div>
 
