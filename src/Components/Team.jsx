@@ -2,7 +2,9 @@ import React from 'react'
 
 const Team = () => {
   return (
-    <div>Team</div>
+    <section className='bg-(--gray-200) py-12'>
+        
+        Team</section>
   )
 }
 

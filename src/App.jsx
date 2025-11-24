@@ -7,7 +7,7 @@ import About from './Components/About'
 import Vision from "./Components/Vision"
 import Work from './Components/Work'
 import Newsletter from './Components/Newsletter'
-import Work from './Components/Work'
+
 
 const App = () => {
   return (
