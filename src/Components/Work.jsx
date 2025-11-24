@@ -64,12 +64,16 @@ const Work = () => {
               <img src={image4} alt="The fourth image icon" className='w-10 mt-3 p-2 outline-(--neutral) outline-2 rounded-full'/>
           </div>
       </div>
-          <div className='flex gap-3'> 
+          <div className='flex gap-3 ml-9'> 
         <h3 className='text-3xl text-(--gray) font-medium'>Core</h3>
-        <h3  className='text-3xl text-(--neutral) font-medium'>Belief</h3>
+        <h3  className='text-3xl text-(--neutral) font-bold'>Belief</h3>
           </div>
 
-
+         <p className='font-semibold text-(--gray) mt-4 ml-9 '> We believe real value comes from putting resources into action. Africa's talent and creativity
+           deserve equal access to global opportunities, and we are committed to bridging that gap. 
+           Collaboration builds stronger, more resilient systems than competition ever could, and trust is the
+            foundation of every successful partnership. By combining action, opportunity, collaboration, and 
+            trust, we unlock Africa‘s full potential and create meaningful impact across the Web3 ecosystem. </p>
         
         </section>
   )
