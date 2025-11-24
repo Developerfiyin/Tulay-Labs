@@ -6,13 +6,14 @@ const Newsletter = () => {
 
         <div className='flex justify-between gap-4'>
        
-       <div>
+       <div className=''>
         <h1 className='font-medium text-5xl text-(-neutral) mb-8 '>We're Open to Partnerships & Collaborations</h1>
         <p className='text-(--gray) font-semibold '>We promise to give you unrestricted access to high quality African Web3 opportunities and vetted startups.</p>
        </div>
 
-       <div>
-        <h2 className='font-medium text-2xl  text-(--neutral) '>We can also send you email updates so you don't miss what's happening in our ecosystem.</h2>
+       <div className='ml-9'>
+        <h2 className='font-medium text-2xl text-(--neutral) '>We can also send you email updates so you don't miss what's happening in our ecosystem.</h2>
+        <input type="text" className='' />
        </div>
         </div>
     </section>
