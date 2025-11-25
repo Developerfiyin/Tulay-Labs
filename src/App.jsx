@@ -8,6 +8,7 @@ import Vision from "./Components/Vision"
 import Newsletter from './Components/Newsletter'
 import Work from './Components/Work'
 import Team from './Components/Team'
+import Event from './Components/Event'
 
 
 const App = () => {
@@ -20,7 +21,7 @@ const App = () => {
       <Work/>
       <Newsletter/>
       <Team/>
-
+      <Event/>
           </div>
   )
 }
