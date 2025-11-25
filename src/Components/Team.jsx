@@ -11,7 +11,7 @@ const Team = () => {
             <p className='font-medium text-(--gray) mb-8'> These are the passionate team of builders, thinkers, and dreamers
                  working together to unlock Africa‘s Web3 potential. </p>
 
-              <div className='lg:flex gap-2 grid '>
+              <div className='lg:flex gap-8 grid lg:justify-center '>
  
                    <div className='bg-white py-4 px-4 rounded-lg'>
                     <img src={image17} alt="BRO DAVID'S PICTURE" className='w-80 rounded-4xl py-2 px-4'/>
@@ -50,7 +50,7 @@ const Team = () => {
 
             </div>
 
-        Team </section>
+         </section>
   )
 }
 
