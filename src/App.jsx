@@ -7,6 +7,7 @@ import About from './Components/About'
 import Vision from "./Components/Vision"
 import Newsletter from './Components/Newsletter'
 import Work from './Components/Work'
+import Team from './Components/Team'
 
 
 const App = () => {
@@ -16,8 +17,9 @@ const App = () => {
       <Hero/>
       <About/>
       <Vision/>
-      <Newsletter/>
       <Work/>
+      <Newsletter/>
+      <Team/>
 
           </div>
   )
