@@ -7,7 +7,7 @@ import image19 from '../assets/image19.png'
 const Team = () => {
   return (
     <section className='bg-(--gray-200) text-center items-center  py-12 px-4 '>
-            <h2 className='text-3xl mt-9 text-(--neutral) font-medium '> Meet the Growing Team </h2>
+            <h2 className='text-5xl mt-9 text-(--neutral) font-bold mb-3'> Meet the Growing Team </h2>
             <p className='font-medium text-(--gray) mb-8'> These are the passionate team of builders, thinkers, and dreamers
                  working together to unlock Africa‘s Web3 potential. </p>
 
