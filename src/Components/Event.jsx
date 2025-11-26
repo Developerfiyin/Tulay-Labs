@@ -4,11 +4,11 @@ const Event = () => {
   return (
     <section className='bg-white py-12 px-5 '>
         <div className='lg:flex justify-between grid gap-8 '>
-             <div className=' flex flex-col'>
+         <div className=' flex gap-2 lg:flex-col'>
            <h1 className='lg:text-6xl text-2xl text-(--gray) font-normal'> We've got interesting</h1>
-           <div>
-               <h2 className='lg:text-7xl text-2xl text-(--neutral) font-semibold'>Events</h2>
-            <h2 className='lg:text-5xl text-2xl font-semibold text-(--gray)'>coming up</h2>
+           <div className='flex gap-2'>
+               <h2 className='lg:text-6xl text-2xl text-(--neutral) font-semibold'>Events</h2>
+            <h2 className='lg:text-6xl text-2xl font-normal text-(--gray)'>coming up</h2>
            </div>
           
              </div>
