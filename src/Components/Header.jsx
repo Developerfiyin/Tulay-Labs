@@ -1,9 +1,8 @@
 import React, { useState } from 'react'
-
 import LOGO from '../assets/logo.png'
-import {Link} from react-router-dom
 import { HiOutlineMenuAlt3} from "react-icons/hi";
 import { RiCloseFill } from 'react-icons/ri';
+import { Link } from 'react-router-dom';
 
 
 const Header = () => {
@@ -19,6 +18,10 @@ const Header = () => {
    <div className='w-90 m-4'>
     <img src={LOGO} alt="THE  LOGO IMAGE"/>
     </div>
+
+
+
+    
     <div className='hidden'>
           <ul className='flex text-(--gray) font-semibold mr-20 '>
         <li className='p-4 hover:text-black'>Home</li>
@@ -34,8 +37,13 @@ const Header = () => {
 
        <div onClick={handleState}> {nav ? <HiOutlineMenuAlt3 size={30}/> :  <RiCloseFill size={30}/> } 
        </div> 
-    <div className={nav ? 'flex flex-col text-(--gray) h-screen sticky z-50 top-0  space-y-2 font-semibold bg-(--gray-200) items-center ease-in-out duration-300' : ' -bottom-full ease-in-out duration-300 hidden '} >
-        <a href='#home' className='p-4 hover:text-black'>Home</a>
+    <div className={nav ? 'flex flex-col text-(--gray) h-screen sticky z-50 top-0  space-y-2 font-semibold bg-(--gray-200) items-center ease-in-out duration-300' : ' -bottom-full ease-in-out duration-300 hidden '}>
+      <ul>
+       <li>
+   <Link className="p-4 hover:text-black" to="/" > Home</Link>
+     </li>
+      </ul>
+        <a href='#home' className=''>Home</a>
         <a href='#about' className='p-4 hover:text-black'>About</a >
         <a href='#vision'  className='p-4 hover:text-black'>Vision</a>
         <a href='#work'  className='p-4 hover:text-black'>Work</a>
