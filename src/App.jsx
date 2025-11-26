@@ -15,17 +15,19 @@ import {Route, Routes} from 'react-router-dom'
 const App = () => {
   return (
     <>
-      
+      <Header/>
+
      <Routes>
-     <Route path='/' element={ <Header/> } />
-     <Route path='/hero' element={ <Hero/>} />
+     <Route path='/' element={ <Hero/>} />
       <Route path='/about' element={ <About/>} />
       <Route path='/vision' element={<Vision/>} />
       <Route path='/work' element={<Work/> } />
+      <Route path='/team' element={ <Team/> } />
+
      </Routes>
 
       <Newsletter/>
-      <Team/>
+     
       <Event/>
           </>
   )
