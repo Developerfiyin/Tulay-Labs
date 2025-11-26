@@ -14,7 +14,7 @@ const Event = () => {
            <p className='text-(--gray) '>7th November</p>
            <h5 className='text-(neutral) font-medium'>Tulay Labs Mixer</h5>
            <h5 className=' text-(--gray) font-medium '>Bridging Africa's Web3 Talents With Global Opportunities</h5>
-           <a href="#post" className='hover:text-(--gray) '>See post</a>
+           <a href="#post" className='hover:text-(--gray) text-(--purple) '>See post</a>
           </div>
 
         </div>
