@@ -1,5 +1,6 @@
 import React from 'react'
 import './App.css'
+import {BrowserRouter, Route, Router, Routes} from "react-router-dom"
 import image2 from '../src/assets/image2.png'
 import Header from './Components/Header'
 import Hero  from './Components/Hero'
@@ -14,10 +15,17 @@ import Event from './Components/Event'
 const App = () => {
   return (
     <div>
+      <Router>
       <Header/>
-      <Hero/>
-      <About/>
-      <Vision/>
+
+   <Routes> 
+     <Route path='/home' element={<Hero/>} />
+       <Route path='/about' element={<About/>} />
+       <Route path='/vision' element={<Vision/>} />
+         </Routes>
+      </Router>
+  
+    
       <Work/>
       <Newsletter/>
       <Team/>

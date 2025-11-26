@@ -1,4 +1,5 @@
 import React from 'react'
+
 import image1 from '../assets/image20.png'
 const Event = () => {
   return (
