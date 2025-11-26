@@ -17,9 +17,12 @@ const App = () => {
     <div className='scroll-smooth'>
       <Header/>
 
-       <section></section>
-      <Hero/>
-      <About/>
+       <section id='home'>
+   <Hero/>
+
+       </section>
+   
+      <About/>  n
       <Vision/>
       <Route />
        <Work/>
