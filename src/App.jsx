@@ -9,20 +9,25 @@ import Newsletter from './Components/Newsletter'
 import Work from './Components/Work'
 import Team from './Components/Team'
 import Event from './Components/Event'
+import {Route, Routes} from 'react-router-dom'
+
 
 const App = () => {
   return (
-    <div>
+    <>
       
-      <Header/>
-      <Hero/>
-       <About/>
-       <Vision/>
-      <Work/>
+     <Routes>
+     <Route path='/' element={ <Header/> } />
+     <Route path='/hero' element={ <Hero/>} />
+      <Route path='/about' element={ <About/>} />
+      <Route path='/vision' element={<Vision/>} />
+      <Route path='/work' element={<Work/> } />
+     </Routes>
+
       <Newsletter/>
       <Team/>
       <Event/>
-          </div>
+          </>
   )
 }
 
