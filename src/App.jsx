@@ -14,8 +14,10 @@ import {Route, Routes} from 'react-router-dom'
 
 const App = () => {
   return (
-    <>
+    <div className='scroll-smooth'>
       <Header/>
+
+       <section></section>
       <Hero/>
       <About/>
       <Vision/>
@@ -24,7 +26,7 @@ const App = () => {
       <Newsletter/>
       <Team/>
       <Event/>
-          </>
+          </div>
   )
 }
 
