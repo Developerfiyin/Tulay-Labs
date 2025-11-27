@@ -2,7 +2,13 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <section className='py-12 px-4 bg-white '>
+
+      <div className='  '>
+
+      </div>
+
+    </section>
   )
 }
 
