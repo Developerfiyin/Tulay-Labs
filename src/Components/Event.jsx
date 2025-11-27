@@ -19,11 +19,11 @@ const Event = () => {
           
 
           <div className='w-[55%] ml-9 border-l-2 border-(--gray) pl-8 '> 
-           <p className='text-(--gray)'>7th November</p>
-           <h5 className='text-(neutral) font-medium'>Tulay Labs Mixer</h5>
-           <h5 className=' text-(--gray) font-medium '>Bridging Africa's Web3 Talents With Global Opportunities</h5>
-           <a href="#post" className='hover:text-(--gray) text-(--purple-200) '>See post</a>
-           <img src={image1} alt=""  className='w-120 rounded-lg '/>
+           <p className='text-(--gray) mb-2'>7th November</p>
+           <h5 className='text-(neutral) font-medium mb-2'>Tulay Labs Mixer</h5>
+           <h5 className=' text-(--gray) font-medium mb-2'>Bridging Africa's Web3 Talents With Global Opportunities</h5>
+           <a href="#post" className='hover:text-(--gray) text-(--gray-300) font-semibold'>See post</a>
+           <img src={image1} alt="THE TULAY LAB MIXER IMAGE"  className='w-120 mt-4 rounded-lg '/>
           </div>
 
         </div>
