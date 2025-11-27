@@ -9,7 +9,6 @@ import Newsletter from './Components/Newsletter'
 import Work from './Components/Work'
 import Team from './Components/Team'
 import Event from './Components/Event'
-import {Route, Routes} from 'react-router-dom'
 
 
 const App = () => {
@@ -18,16 +17,26 @@ const App = () => {
       <Header/>
 
        <section id='home'>
-   <Hero/>
-
+          <Hero/>
        </section>
-   
-      <About/>  n
+         
+          <section id='about'>
+              <About/>  
+          </section>
+      
+    <section id='vision'>
       <Vision/>
-      <Route />
-       <Work/>
+    </section>
+     
+          <section id='work'>
+            <Work/>
+          </section>
+          
+          <section id='team'>
+            <Team/>
+          </section>
       <Newsletter/>
-      <Team/>
+     
       <Event/>
           </div>
   )
