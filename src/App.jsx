@@ -24,9 +24,9 @@ const App = () => {
               <About/>  
           </section>
       
-    <section id='vision'>
-      <Vision/>
-    </section>
+             <section id='vision'>
+               <Vision/>
+              </section>
      
           <section id='work'>
             <Work/>
@@ -35,8 +35,8 @@ const App = () => {
           <section id='team'>
             <Team/>
           </section>
+
       <Newsletter/>
-     
       <Event/>
           </div>
   )

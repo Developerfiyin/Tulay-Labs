@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import LOGO from '../assets/logo.png'
 import { HiOutlineMenuAlt3} from "react-icons/hi";
 import { RiCloseFill } from 'react-icons/ri';
-import {Link} from 'react-dom'
+
 
 
 
@@ -40,11 +40,11 @@ const Header = () => {
        </div> 
     <div className={nav ? 'flex flex-col text-(--gray) h-screen sticky z-50 top-0  space-y-2 font-semibold bg-(--gray-200) items-center ease-in-out duration-300' : ' -bottom-full ease-in-out duration-300 hidden '}>
              
-        <a href="/" className=''>Home</a>
-        <a href="/about"  className='p-4 hover:text-black'>About</a>
-        <a href='/vision'  className='p-4 hover:text-black'>Vision</a>
-        <a href='/work'  className='p-4 hover:text-black'>Work</a>
-        <a href='/team'  className='p-4 hover:text-black'>Team</a>
+        <a href="#home" className=''>Home</a>
+        <a href="#about"  className='p-4 hover:text-black'>About</a>
+        <a href='#vision'  className='p-4 hover:text-black'>Vision</a>
+        <a href='#work'  className='p-4 hover:text-black'>Work</a>
+        <a href='#team'  className='p-4 hover:text-black'>Team</a>
       <button className='bg-(--purple) hover:bg-[#5f0df8cc] rounded-full cursor-pointer font-medium mx-9 w-150 p-3.5 mb-2 text-white text-center'>Partner with Us</button>
     </div>
 
