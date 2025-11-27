@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <section className='py-12 px-4 bg-white '>
 
-      <div className='lg:flex flex-4 gap-3 grid grid-cols-4'>
+      <div className='lg:flex flex-4 space-x-4 gap-3 grid grid-cols-4'>
         
         <div >
           <img src={LOGO} alt=" THE LOGO IMAGE " className='mb-4 w-30' />
@@ -19,6 +19,11 @@ const Footer = () => {
     <a href="#about" className='text-(--gray) hover:text-black p-2 font-semibold'>About</a>
     <a href="#work" className='text-(--gray) hover:text-black p-2 font-semibold'>Works</a>
     <a href="#team " className='text-(--gray) hover:text-black p-2 font-semibold'>Team</a>
+   </div>
+
+   <div className='flex flex-col'>
+     <h3 className='text-(--neutral) font-medium text-xl  '>Languages</h3>
+     <button className='bg-(--purple) rounded-full mt-3  text-(--natural) text-center hover:bg-(--#5f0df8cc) font-semibold py-4 px-9 p-2' >English</button>
    </div>
       </div>
 
