@@ -4,24 +4,26 @@ import image1 from '../assets/image20.png'
 const Event = () => {
   return (
     <section className='bg-white py-12 px-5 '>
-        <div className='lg:flex justify-between grid gap-8 '>
-         <div className=' flex gap-2 lg:flex-col'>
+        <div className='lg:flex justify-between gap-8  grid'>
+         <div className=' flex gap-3 flex-col'>
            <h1 className='lg:text-6xl text-2xl text-(--gray) font-normal'> We've got interesting</h1>
-           <div className='flex gap-2'>
+           <div className='flex mb-4 gap-2'>
                <h2 className='lg:text-6xl text-2xl text-(--neutral) font-semibold'>Events</h2>
             <h2 className='lg:text-6xl text-2xl font-normal text-(--gray)'>coming up</h2>
            </div>
-          
+          <p className='text-(--gray) font-medium'> We‘re bringing together founders, investors, and builders across Africa and beyond. <br />
+           From panel discussions to demo days, we create spaces where ideas are shared, <br />
+          partnerships are formed, and real opportunities begin. </p>
              </div>
            
           
 
-          <div className=''> 
+          <div className='w-[55%] ml-9 border-l-2 border-(--gray) pl-8 '> 
            <p className='text-(--gray)'>7th November</p>
            <h5 className='text-(neutral) font-medium'>Tulay Labs Mixer</h5>
            <h5 className=' text-(--gray) font-medium '>Bridging Africa's Web3 Talents With Global Opportunities</h5>
            <a href="#post" className='hover:text-(--gray) text-(--purple-200) '>See post</a>
-           <img src={image1} alt=""  className='w-100 rounded-lg '/>
+           <img src={image1} alt=""  className='w-120 rounded-lg '/>
           </div>
 
         </div>

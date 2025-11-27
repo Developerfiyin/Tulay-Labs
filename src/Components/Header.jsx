@@ -24,13 +24,13 @@ const Header = () => {
 
     
     <div className='hidden'>
-          <ul className='flex text-(--gray) font-semibold mr-20 '>
-        <li className='p-4 hover:text-black'>Home</li>
-        <li className='p-4 hover:text-black'>About</li>
-        <li className='p-4 hover:text-black'>Vision</li>
-        <li className='p-4 hover:text-black'>Work</li>
-        <li className='p-4 hover:text-black'>Team</li>
-    </ul>     
+          <div className='flex text-(--gray) font-semibold mr-20 '>
+        <a href='#hero' className='p-4 hover:text-black'>Home</a>
+        <a href='##about' className='p-4 hover:text-black'>About</a>
+        <a href='#vision' className='p-4 hover:text-black'>Vision</a>
+        <a href='#work'  className='p-4 hover:text-black'>Work</a>
+        <a href='#team' className='p-4 hover:text-black'>Team</a>
+    </div>     
   <button className='bg-(--purple) hover:bg-[#5f0df8cc] rounded-full cursor-pointer font-medium px-6  text-white py-3.5 text-center  mr-4'>Partner with Us</button>
    </div>
     </nav>
