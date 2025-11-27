@@ -9,6 +9,7 @@ import Newsletter from './Components/Newsletter'
 import Work from './Components/Work'
 import Team from './Components/Team'
 import Event from './Components/Event'
+import Footer from './Components/Footer'
 
 
 const App = () => {
@@ -38,6 +39,7 @@ const App = () => {
 
       <Newsletter/>
       <Event/>
+      <Footer/>
           </div>
   )
 }
