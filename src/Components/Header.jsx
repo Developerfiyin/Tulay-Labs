@@ -20,13 +20,11 @@ const Header = () => {
     <img src={LOGO} alt="THE  LOGO IMAGE"/>
     </div>
 
-
-
     
-    <div className='hidden'>
+    <div className='hidden md:flex'>
           <div className='flex text-(--gray) font-semibold mr-20 '>
         <a href='#hero' className='p-4 hover:text-black'>Home</a>
-        <a href='##about' className='p-4 hover:text-black'>About</a>
+        <a href='#about' className='p-4 hover:text-black'>About</a>
         <a href='#vision' className='p-4 hover:text-black'>Vision</a>
         <a href='#work'  className='p-4 hover:text-black'>Work</a>
         <a href='#team' className='p-4 hover:text-black'>Team</a>
@@ -36,9 +34,9 @@ const Header = () => {
     </nav>
  
 
-       <div onClick={handleState}> {nav ? <HiOutlineMenuAlt3 size={30}/> :  <RiCloseFill size={30}/>} 
+       <div className='block md:hidden' onClick={handleState}> { nav ? <HiOutlineMenuAlt3 size={30}/> :  <RiCloseFill size={30}/>} 
        </div> 
-    <div className={nav ? 'flex flex-col text-(--gray) h-screen sticky z-50 top-0  space-y-2 font-semibold bg-(--gray-200) items-center ease-in-out duration-300' : ' -bottom-full ease-in-out duration-300 hidden '}>
+    <div className={ nav ? 'flex flex-col text-(--gray) h-screen space-y-2 font-semibold bg-(--gray-200) items-center ease-in-out duration-300' : ' -bottom-full ease-in-out duration-300 hidden'}>
              
         <a href="#home" className=''>Home</a>
         <a href="#about"  className='p-4 hover:text-black'>About</a>
