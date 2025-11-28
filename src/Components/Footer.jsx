@@ -41,7 +41,7 @@ const Footer = () => {
       </div>
 
       </div>
-
+    <p className='text-(--gray) font-semibold mt-4 text-center border-t-2 pt-8 '>Copyrighted© 2025 products by Tulay Labs </p>
     </section>
   )
 }
