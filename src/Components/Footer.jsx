@@ -8,7 +8,7 @@ const Footer = () => {
         
         <div >
           <img src={LOGO} alt=" THE LOGO IMAGE " className='mb-4 w-30' />
-          <p>We connect people, ideas and opportunities across borders. <br />
+          <p className='text-(--neutral) font-semibold'>We connect people, ideas and opportunities across borders. <br />
            We help Africa’s builders, founders and communities find global <br />
             access while bringing meaningful projects into Africa with trust and relevance.</p>
         </div>
@@ -28,6 +28,14 @@ const Footer = () => {
     <a href="#work" className='text-(--gray) hover:text-(--neutral) p-2 font-semibold'>French</a>
     <a href="#team" className='text-(--gray) hover:text-(--neutral) p-2 font-semibold'>Chinese</a>
    </div>
+
+      
+       <div className='flex flex-col'>
+       <img src={} alt="" />
+       <img src={} alt="" />
+       <img src={} alt="" />
+   
+       </div>
 
 
       </div>
