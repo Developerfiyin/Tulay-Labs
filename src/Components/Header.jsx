@@ -14,10 +14,10 @@ const Header = () => {
      }
 
   return (
-  <section className='py-6'>
-    <nav className='bg-white mt-0 px-4 items-center flex justify-between sticky top-0 z-50  '>
+  <section className='py-6  sticky top-0 z-50 bg-white/70 backdrop-blur-md '>
+    <nav className='bg-white mt-0 px-4 items-center flex justify-between'>
    <div className='w-90 m-4'>
-    <img src={LOGO} alt="THE  LOGO IMAGE"/>
+    <img src={LOGO} alt="THE  LOGO IMAGE"/>    
     </div>
 
     
@@ -34,7 +34,7 @@ const Header = () => {
     </nav>
  
 
-       <div className='block md:hidden' onClick={handleState}> { nav ? <HiOutlineMenuAlt3 size={30}/> :  <RiCloseFill size={30}/>} 
+       <div className='block md:hidden' onClick={handleState}> {nav ? <HiOutlineMenuAlt3 size={30}/> :  <RiCloseFill size={30}/>} 
        </div> 
     <div className={ nav ? 'flex flex-col text-(--gray) h-screen space-y-2 font-semibold bg-(--gray-200) items-center ease-in-out duration-300' : ' -bottom-full ease-in-out duration-300 hidden'}>
              

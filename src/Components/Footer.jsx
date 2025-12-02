@@ -14,7 +14,7 @@ const Footer = () => {
             access while bringing meaningful projects into Africa with trust and relevance.</p>
         </div>
 
-    <div className='flex space-x-15 justify-around mx-auto'>
+    <div className='flex space-x-15 mx-auto'>
    <div className='flex-col flex '>
     <h3 className='text-xl  text-(--neutral) font-medium mb-6 '>Quick Links</h3>
     <a href="#home" className='text-(--gray) hover:text-(--black) p-2 font-semibold'>Home</a>
