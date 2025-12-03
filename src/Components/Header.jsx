@@ -17,7 +17,6 @@ const Header = () => {
     <img src={LOGO} alt="THE  LOGO IMAGE"/>    
     </div>
 
-    
     <div className='hidden md:flex'>
           <div className='flex text-(--gray) font-semibold mr-20 '>
         <a href='#hero' className='p-4 hover:text-black'>Home</a>
@@ -30,7 +29,6 @@ const Header = () => {
    </div>
     </nav>
  
-
        <div className='block md:hidden' onClick={handleState}> {nav ? <HiOutlineMenuAlt3 size={30}/> :  <RiCloseFill size={30}/>} 
        </div> 
     <div className={ nav ? 'flex flex-col text-(--gray) h-[60vh] space-y-2 font-semibold bg-(--gray-200) items-center ease-in-out duration-300' : ' -bottom-full ease-in-out duration-300 hidden'}>
