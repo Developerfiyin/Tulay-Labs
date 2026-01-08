@@ -2,7 +2,7 @@ import React from 'react'
 
 const Newsletter = () => {
   return (
-    <section className='bg-white py-12 ml-6 mt-9 '>
+    <section className='bg-white py-12 px-6 ml-6 mt-9 '>
 
         <div className='lg:flex grid gap-5'>
        
