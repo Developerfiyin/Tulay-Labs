@@ -19,7 +19,7 @@ const Header = () => {
 
     <div className='hidden md:flex'>
           <div className='flex text-(--gray) font-semibold mr-20 '>
-        <a href='#hero' className='p-4 hover:text-black'>Home</a>
+        <a href='#home' className='p-4 hover:text-black'>Home</a>
         <a href='#about' className='p-4 hover:text-black'>About</a>
         <a href='#vision' className='p-4 hover:text-black'>Vision</a>
         <a href='#work'  className='p-4 hover:text-black'>Work</a>
