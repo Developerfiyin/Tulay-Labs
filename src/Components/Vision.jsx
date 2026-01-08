@@ -11,7 +11,7 @@ import image7 from '../assets/image7.png'
 
 const Vision = () => {
   return (
-    <section className="bg-white py-12 px-4" >
+    <section className="bg-white py-12 px-8" >
         <div className='flex justify-between'>
 
           <div className='bg-(--gray-200) flex-col h-[40%] flex py-4 px-4 w-[40%] rounded-md'>
@@ -75,7 +75,7 @@ const Vision = () => {
           
           <div className=' flex flex-col w-[40%]'>
            <h2 className='text-4xl font-semibold text-(--neutral) mb-9'>Our promise to those building the web3 future of Africa.</h2>
-
+ 
             <div>
               <img src={lock} alt="THE LOCK ICON" className='outline-2 rounded-full m-4 p-3 outline-(--gray)' />
               <div className='flex gap-6 border-t-2 border-(--gray) '>
