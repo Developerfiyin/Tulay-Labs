@@ -6,7 +6,7 @@ import image2 from '../assets/image2.png'
 import image3 from '../assets/image3.png'
 const Hero = () => {
   return (
-    <div className='bg-(--gray-200) text-(--gray) py-10 rounded-4xl px-6 '>
+    <div className='bg-(--gray-200) text-(--gray) py-10 p-6 rounded-4xl px-6 '>
       <div className=' justify-between grid md:grid-cols-2'>
         <div className='flex flex-col gap-9'>
      <h2 className='text-xl font-semibold'>We are Building...</h2>
