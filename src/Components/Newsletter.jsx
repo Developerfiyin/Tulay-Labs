@@ -2,10 +2,10 @@ import React from 'react'
 
 const Newsletter = () => {
   return (
-    <section className='bg-white py-12 p-6  mt-9 '>
+    <section className='bg-white py-12 p-6 mx-auto mt-9 '>
 
-        <div className='lg:flex grid gap-5'>
-       
+        <div className='lg:flex grid space-x-5'>
+    
        <div className=''>
         <h1 className='font-medium md:text-5xl text-3xl text-(--neutral) mb-8 '>We're Open to Partnerships & Collaborations</h1>
         <p className='text-(--gray) font-semibold '>We promise to give you unrestricted access to high quality African Web3 opportunities and vetted startups.</p>

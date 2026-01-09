@@ -3,7 +3,7 @@ import React from 'react'
 import image1 from '../assets/image20.png'
 const Event = () => {
   return (
-    <section className='bg-white py-12 px-5 '>
+    <section className='bg-white py-12 p-6'>
         <div className='lg:flex justify-between gap-8  grid'>
          <div className=' flex gap-3 flex-col'>
            <h1 className='lg:text-6xl text-2xl text-(--gray) font-normal'> We've got interesting</h1>
