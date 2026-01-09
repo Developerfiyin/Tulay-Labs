@@ -27,6 +27,7 @@ const Newsletter = () => {
        </div>
        
         </div>
+        
     </section>
 
   )

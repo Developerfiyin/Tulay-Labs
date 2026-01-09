@@ -21,7 +21,7 @@ const Hero = () => {
            </div>
         </div>
 
-       <div className='ml-auto rounded-md' >
+       <div className='ml-auto rounded-lg ' >
      <img src={image2} alt="THE IMAGE" />
     </div>
 
