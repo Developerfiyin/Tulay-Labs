@@ -4,9 +4,9 @@ const Newsletter = () => {
   return (
     <section className='bg-white py-12 p-6 mx-auto mt-9 '>
 
-        <div className='lg:flex grid space-x-5'>
+        <div className='lg:flex grid space-x -5 gap-6'>
     
-       <div className=''>
+       <div className='flex flex-col mb-8 md:mb-0 '>
         <h1 className='font-medium md:text-5xl text-3xl text-(--neutral) mb-8 '>We're Open to Partnerships & Collaborations</h1>
         <p className='text-(--gray) font-semibold '>We promise to give you unrestricted access to high quality African Web3 opportunities and vetted startups.</p>
         <input type="text"placeholder='Enter Your Email Here...'
@@ -14,13 +14,18 @@ const Newsletter = () => {
         <textarea name="" id="" placeholder='Type your message ...'
         className='bg-(--gray-200) w-100 mb-5 focus:ring-2 focus:ring-(--purple) focus:outline-none px-3 py-3 resize-none rounded-lg'></textarea>
          <button className='bg-(--purple) px-2 text-(--natural) py-3 w-70 rounded-full font-medium hover:bg-[#5f0df8cc] ease-in-out duration-300 '>Sumbit Proposal</button>
-       </div>
+      </div>
 
-       <div className='ml-12'>
+       <div className='flex flex-col mt-8 md:mt-0'>
         <h2 className='font-medium text-2xl text-(--neutral) '>We can also send you email updates so you don't miss what's happening in our ecosystem.</h2>
+
+        <div className='flex mt-4 gap-3 items-center'>
         <input type="text" placeholder='Enter Your Email...' className='bg-(--gray-200) rounded-2xl w-70 px-3 py-3 mt-4 focus:outline-none focus:ring-2 focus:ring-(--purple) ' />
         <button className='bg-(--purple) font-medium text-(--natural) py-3 px-2 w-50 ml-5 rounded-full hover:bg-[#5f0df8cc] '>Subscribe</button>
+        </div>
+
        </div>
+       
         </div>
     </section>
 
