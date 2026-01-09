@@ -13,7 +13,7 @@ const Hero = () => {
      <h1 className='text-4xl mb-7 text-(--neutral) font-bold'> The Bridge Between <br />
       Africa & The Global Web3 <br />
        Ecosystem.</h1>
-       <h4 className='font-semibold '>We connect people, ideas and opportunities across borders. We help Africa's builders, founders
+       <h4 className='font-semibold'>We connect people, ideas and opportunities across borders. We help Africa's builders, founders
          and commnuities find global access while bringing meaningful projects into Africa with trust and relevance.</h4>
           <div className='mb-8'> 
         <button className='bg-(--purple) hover:bg-(--gray-200) hover:outline-(--purple) hover:outline-2 hover:text-(--purple) text-xl font-medium px-4 text-white rounded-3xl mx-auto mr-9 ml-0 py-4 border-none'>Partner with Us</button>
@@ -25,7 +25,6 @@ const Hero = () => {
      <img src={image2} alt="THE IMAGE" />
     </div>
 
-        
       </div>
 
 
@@ -50,7 +49,6 @@ const Hero = () => {
           <h5 className='hover:text-(--neutral) font-semibold mb-4'>Bridging Africa & the global Web3 ecosystem .</h5>
           </div>
         </div>
-
 
     </div>
   )
